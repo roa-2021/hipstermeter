@@ -1,17 +1,19 @@
-import React from 'react'
+import React from "react"
 import ReactSpeedometer from "react-d3-speedometer"
 
-function Meter () {
-
+function Meter(props) {
 
   return (
     <div>
-      <ReactSpeedometer 
-      maxValue={100}
-      value={80}
-      segments={1}
-      needleTransitionDuration={2000}
-      needleTransition="easeExpInOut"
+      <h1>0% Certified Hipster</h1>
+      <h3>Your music taste is pretty basic</h3>
+      <ReactSpeedometer
+        value={80}
+        maxSegmentLabels={0}
+        segments={1000}
+        needleTransition='easeExpInOut'
+        needleTransitionDuration={3000}
+        maxValue={100}
       />
     </div>
   )

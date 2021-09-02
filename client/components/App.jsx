@@ -1,13 +1,21 @@
 import React from 'react'
 
-import Fruit from './Fruit'
+import  Home from './Home'
+import  Nav from './Nav'
+import Music from './Music'
+import { Route } from 'react-router-dom'
+
 import spotifyApi from '../apis/spotify';
+
 
 const App = () => {
   return (
     <>
-      <h1>Hola! Fruit time!</h1>
-      <Fruit />
+      <h1>Music Time</h1>
+      <Route path ='/' component ={Nav}/>
+      <Route exact path ='/' component ={Home}/>
+      <Route exact path ='/music' component ={Music}/>
+
     </>
   )
 }

@@ -12,10 +12,9 @@ function Nav () {
     <nav>
       <Link to="/">Home</Link>
       <Link to="/about">About</Link>
-      <Route exact path="/top-artists" component={List} />
-      <Route exact path="/top-tracks" component={List} />
-      <Route exact path="/uploadScoreForm" component={UploadScoreForm} />
-      <Route exact path="/compare" component={Compare} />
+      <Link to="/list">List</Link>
+      <Link to="/uploadScoreForm">UploadScoreForm</Link>
+      <Link to="/compare">Compare</Link>
     </nav>
   )
 }

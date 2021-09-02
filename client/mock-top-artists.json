@@ -1,0 +1,773 @@
+{
+  "items": [
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/43JlwunhXm1oqdKyOa2Z9Y"
+      },
+      "followers": {
+        "href": null,
+        "total": 437675
+      },
+      "genres": [
+        "alternative r&b",
+        "australian r&b",
+        "indie jazz",
+        "indie soul",
+        "neo soul",
+        "shiver pop"
+      ],
+      "href": "https://api.spotify.com/v1/artists/43JlwunhXm1oqdKyOa2Z9Y",
+      "id": "43JlwunhXm1oqdKyOa2Z9Y",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf989f36b43cba6dc03a5dd15",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174f989f36b43cba6dc03a5dd15",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178f989f36b43cba6dc03a5dd15",
+          "width": 160
+        }
+      ],
+      "name": "Hiatus Kaiyote",
+      "popularity": 63,
+      "type": "artist",
+      "uri": "spotify:artist:43JlwunhXm1oqdKyOa2Z9Y"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5lDtfHPqWN6MG9tFywnW8J"
+      },
+      "followers": {
+        "href": null,
+        "total": 64088
+      },
+      "genres": [
+        "indie jazz",
+        "indie r&b",
+        "indie soul",
+        "neo r&b",
+        "uk contemporary jazz"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5lDtfHPqWN6MG9tFywnW8J",
+      "id": "5lDtfHPqWN6MG9tFywnW8J",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb09c7c3affc9702a79f42949b",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517409c7c3affc9702a79f42949b",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17809c7c3affc9702a79f42949b",
+          "width": 160
+        }
+      ],
+      "name": "Kiefer",
+      "popularity": 52,
+      "type": "artist",
+      "uri": "spotify:artist:5lDtfHPqWN6MG9tFywnW8J"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1LeVJ5GPeYDOVUjxx1y7Rp"
+      },
+      "followers": {
+        "href": null,
+        "total": 674243
+      },
+      "genres": [
+        "chillwave",
+        "indie rock",
+        "kiwi rock",
+        "neo-psychedelic",
+        "new rave",
+        "portland hip hop",
+        "psychedelic pop"
+      ],
+      "href": "https://api.spotify.com/v1/artists/1LeVJ5GPeYDOVUjxx1y7Rp",
+      "id": "1LeVJ5GPeYDOVUjxx1y7Rp",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb15f40363a8743ff0ee406244",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517415f40363a8743ff0ee406244",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17815f40363a8743ff0ee406244",
+          "width": 160
+        }
+      ],
+      "name": "Unknown Mortal Orchestra",
+      "popularity": 68,
+      "type": "artist",
+      "uri": "spotify:artist:1LeVJ5GPeYDOVUjxx1y7Rp"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/24icoQNJSEWNu3XvqKBR68"
+      },
+      "followers": {
+        "href": null,
+        "total": 260521
+      },
+      "genres": [
+        "alternative r&b",
+        "indie jazz",
+        "indie r&b",
+        "indie soul",
+        "neo r&b",
+        "soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/24icoQNJSEWNu3XvqKBR68",
+      "id": "24icoQNJSEWNu3XvqKBR68",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb20fc563b6784bec1ad0ed30f",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517420fc563b6784bec1ad0ed30f",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17820fc563b6784bec1ad0ed30f",
+          "width": 160
+        }
+      ],
+      "name": "Jordan Rakei",
+      "popularity": 66,
+      "type": "artist",
+      "uri": "spotify:artist:24icoQNJSEWNu3XvqKBR68"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2UZjIISzcezFJLo0ngik2Z"
+      },
+      "followers": {
+        "href": null,
+        "total": 33928
+      },
+      "genres": [
+        "alternative r&b",
+        "indie r&b",
+        "indie soul",
+        "manchester hip hop",
+        "uk alternative hip hop"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2UZjIISzcezFJLo0ngik2Z",
+      "id": "2UZjIISzcezFJLo0ngik2Z",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb1ec0c040ead20d09f162a9cf",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051741ec0c040ead20d09f162a9cf",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1781ec0c040ead20d09f162a9cf",
+          "width": 160
+        }
+      ],
+      "name": "Children of Zeus",
+      "popularity": 49,
+      "type": "artist",
+      "uri": "spotify:artist:2UZjIISzcezFJLo0ngik2Z"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2i1CPudyCUjL50Wqjv8AMI"
+      },
+      "followers": {
+        "href": null,
+        "total": 154543
+      },
+      "genres": [
+        "british jazz",
+        "indie jazz",
+        "indie soul",
+        "uk contemporary jazz"
+      ],
+      "href": "https://api.spotify.com/v1/artists/2i1CPudyCUjL50Wqjv8AMI",
+      "id": "2i1CPudyCUjL50Wqjv8AMI",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb546a010a0ff602de812a09ee",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174546a010a0ff602de812a09ee",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178546a010a0ff602de812a09ee",
+          "width": 160
+        }
+      ],
+      "name": "Alfa Mist",
+      "popularity": 55,
+      "type": "artist",
+      "uri": "spotify:artist:2i1CPudyCUjL50Wqjv8AMI"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/09hVIj6vWgoCDtT03h8ZCa"
+      },
+      "followers": {
+        "href": null,
+        "total": 1511609
+      },
+      "genres": [
+        "alternative hip hop",
+        "conscious hip hop",
+        "east coast hip hop",
+        "gangster rap",
+        "golden age hip hop",
+        "hardcore hip hop",
+        "hip hop",
+        "jazz rap",
+        "queens hip hop",
+        "rap"
+      ],
+      "href": "https://api.spotify.com/v1/artists/09hVIj6vWgoCDtT03h8ZCa",
+      "id": "09hVIj6vWgoCDtT03h8ZCa",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb774d73ae6796b6f437d89db9",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174774d73ae6796b6f437d89db9",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178774d73ae6796b6f437d89db9",
+          "width": 160
+        }
+      ],
+      "name": "A Tribe Called Quest",
+      "popularity": 71,
+      "type": "artist",
+      "uri": "spotify:artist:09hVIj6vWgoCDtT03h8ZCa"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6l3HvQ5sa6mXTsMTB19rO5"
+      },
+      "followers": {
+        "href": null,
+        "total": 14240471
+      },
+      "genres": [
+        "conscious hip hop",
+        "hip hop",
+        "north carolina hip hop",
+        "rap"
+      ],
+      "href": "https://api.spotify.com/v1/artists/6l3HvQ5sa6mXTsMTB19rO5",
+      "id": "6l3HvQ5sa6mXTsMTB19rO5",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebadd503b411a712e277895c8a",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174add503b411a712e277895c8a",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178add503b411a712e277895c8a",
+          "width": 160
+        }
+      ],
+      "name": "J. Cole",
+      "popularity": 90,
+      "type": "artist",
+      "uri": "spotify:artist:6l3HvQ5sa6mXTsMTB19rO5"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5Cs7q4jgkzn0pmj34qncqw"
+      },
+      "followers": {
+        "href": null,
+        "total": 16652
+      },
+      "genres": ["nz hip hop", "nz indie"],
+      "href": "https://api.spotify.com/v1/artists/5Cs7q4jgkzn0pmj34qncqw",
+      "id": "5Cs7q4jgkzn0pmj34qncqw",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb141e3bff8d3e1607a4c40ee6",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174141e3bff8d3e1607a4c40ee6",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178141e3bff8d3e1607a4c40ee6",
+          "width": 160
+        }
+      ],
+      "name": "Avantdale Bowling Club",
+      "popularity": 34,
+      "type": "artist",
+      "uri": "spotify:artist:5Cs7q4jgkzn0pmj34qncqw"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/336vr2M3Va0FjyvB55lJEd"
+      },
+      "followers": {
+        "href": null,
+        "total": 1043627
+      },
+      "genres": [
+        "alternative r&b",
+        "funk",
+        "hip hop",
+        "indie soul",
+        "neo soul",
+        "soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/336vr2M3Va0FjyvB55lJEd",
+      "id": "336vr2M3Va0FjyvB55lJEd",
+      "images": [
+        {
+          "height": 1384,
+          "url": "https://i.scdn.co/image/c69197fa9d01ec73e2617525b920e76b550ba2e2",
+          "width": 1000
+        },
+        {
+          "height": 885,
+          "url": "https://i.scdn.co/image/93bcec2fca85cdc5b1624b0d4f7c71169dfa1b40",
+          "width": 640
+        },
+        {
+          "height": 277,
+          "url": "https://i.scdn.co/image/684bedc9545de1eb2b3ed1133e9b6f5668775049",
+          "width": 200
+        },
+        {
+          "height": 89,
+          "url": "https://i.scdn.co/image/d095e7dee69a4430fea48dd53c8ba597415b6ea1",
+          "width": 64
+        }
+      ],
+      "name": "D'Angelo",
+      "popularity": 66,
+      "type": "artist",
+      "uri": "spotify:artist:336vr2M3Va0FjyvB55lJEd"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/1020a42xVklY6c56imNcaa"
+      },
+      "followers": {
+        "href": null,
+        "total": 232196
+      },
+      "genres": [
+        "alternative hip hop",
+        "detroit hip hop",
+        "hip hop",
+        "indie soul",
+        "neo soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/1020a42xVklY6c56imNcaa",
+      "id": "1020a42xVklY6c56imNcaa",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebd3e282b54f0709be5376764a",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174d3e282b54f0709be5376764a",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178d3e282b54f0709be5376764a",
+          "width": 160
+        }
+      ],
+      "name": "Slum Village",
+      "popularity": 59,
+      "type": "artist",
+      "uri": "spotify:artist:1020a42xVklY6c56imNcaa"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/6pAk8OZVCX1nMiYgtAauSH"
+      },
+      "followers": {
+        "href": null,
+        "total": 33882
+      },
+      "genres": ["nz hip hop", "pacific islands pop"],
+      "href": "https://api.spotify.com/v1/artists/6pAk8OZVCX1nMiYgtAauSH",
+      "id": "6pAk8OZVCX1nMiYgtAauSH",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb39f600ae4002ac6d80f8ca54",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517439f600ae4002ac6d80f8ca54",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17839f600ae4002ac6d80f8ca54",
+          "width": 160
+        }
+      ],
+      "name": "Home Brew",
+      "popularity": 49,
+      "type": "artist",
+      "uri": "spotify:artist:6pAk8OZVCX1nMiYgtAauSH"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3GQboECxDT1xqPPWC30p7v"
+      },
+      "followers": {
+        "href": null,
+        "total": 165094
+      },
+      "genres": [
+        "alternative r&b",
+        "canadian contemporary r&b",
+        "indie r&b",
+        "indie soul",
+        "neo soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3GQboECxDT1xqPPWC30p7v",
+      "id": "3GQboECxDT1xqPPWC30p7v",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb85d5cf0829eb46cd6ef40115",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab6761610000517485d5cf0829eb46cd6ef40115",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f17885d5cf0829eb46cd6ef40115",
+          "width": 160
+        }
+      ],
+      "name": "Charlotte Day Wilson",
+      "popularity": 65,
+      "type": "artist",
+      "uri": "spotify:artist:3GQboECxDT1xqPPWC30p7v"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/5cM1PvItlR21WUyBnsdMcn"
+      },
+      "followers": {
+        "href": null,
+        "total": 305010
+      },
+      "genres": [
+        "alternative r&b",
+        "contemporary jazz",
+        "indie jazz",
+        "indie soul",
+        "jazz",
+        "modern jazz piano",
+        "neo soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/5cM1PvItlR21WUyBnsdMcn",
+      "id": "5cM1PvItlR21WUyBnsdMcn",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebca8b74f8fbae305aa4e0c9b3",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174ca8b74f8fbae305aa4e0c9b3",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178ca8b74f8fbae305aa4e0c9b3",
+          "width": 160
+        }
+      ],
+      "name": "Robert Glasper",
+      "popularity": 66,
+      "type": "artist",
+      "uri": "spotify:artist:5cM1PvItlR21WUyBnsdMcn"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/247AfC9pLuqwgpH8Mo96oA"
+      },
+      "followers": {
+        "href": null,
+        "total": 201239
+      },
+      "genres": ["experimental pop", "kiwi rock", "neo-psychedelic"],
+      "href": "https://api.spotify.com/v1/artists/247AfC9pLuqwgpH8Mo96oA",
+      "id": "247AfC9pLuqwgpH8Mo96oA",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf712913195502cae957ac24d",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174f712913195502cae957ac24d",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178f712913195502cae957ac24d",
+          "width": 160
+        }
+      ],
+      "name": "Connan Mockasin",
+      "popularity": 57,
+      "type": "artist",
+      "uri": "spotify:artist:247AfC9pLuqwgpH8Mo96oA"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2WoVwexZuODvclzULjPQtm"
+      },
+      "followers": {
+        "href": null,
+        "total": 522237
+      },
+      "genres": ["alternative r&b", "indie soul"],
+      "href": "https://api.spotify.com/v1/artists/2WoVwexZuODvclzULjPQtm",
+      "id": "2WoVwexZuODvclzULjPQtm",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebe6e2434b0317fc0b2de62281",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174e6e2434b0317fc0b2de62281",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178e6e2434b0317fc0b2de62281",
+          "width": 160
+        }
+      ],
+      "name": "Sampha",
+      "popularity": 64,
+      "type": "artist",
+      "uri": "spotify:artist:2WoVwexZuODvclzULjPQtm"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/3m7Ej9zfNto7JOsjKsYhEr"
+      },
+      "followers": {
+        "href": null,
+        "total": 64423
+      },
+      "genres": [
+        "funk",
+        "indie jazz",
+        "indie soul",
+        "jazz",
+        "jazz funk",
+        "jazz fusion",
+        "neo r&b",
+        "neo soul"
+      ],
+      "href": "https://api.spotify.com/v1/artists/3m7Ej9zfNto7JOsjKsYhEr",
+      "id": "3m7Ej9zfNto7JOsjKsYhEr",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab67616d0000b2738b669367dd770eec5e9ab345",
+          "width": 640
+        },
+        {
+          "height": 300,
+          "url": "https://i.scdn.co/image/ab67616d00001e028b669367dd770eec5e9ab345",
+          "width": 300
+        },
+        {
+          "height": 64,
+          "url": "https://i.scdn.co/image/ab67616d000048518b669367dd770eec5e9ab345",
+          "width": 64
+        }
+      ],
+      "name": "The RH Factor",
+      "popularity": 48,
+      "type": "artist",
+      "uri": "spotify:artist:3m7Ej9zfNto7JOsjKsYhEr"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/2pAWfrd7WFF3XhVt9GooDL"
+      },
+      "followers": {
+        "href": null,
+        "total": 1004719
+      },
+      "genres": ["alternative hip hop", "east coast hip hop", "hip hop", "rap"],
+      "href": "https://api.spotify.com/v1/artists/2pAWfrd7WFF3XhVt9GooDL",
+      "id": "2pAWfrd7WFF3XhVt9GooDL",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb3e9a6caa41a80b9238a49784",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051743e9a6caa41a80b9238a49784",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1783e9a6caa41a80b9238a49784",
+          "width": 160
+        }
+      ],
+      "name": "MF DOOM",
+      "popularity": 75,
+      "type": "artist",
+      "uri": "spotify:artist:2pAWfrd7WFF3XhVt9GooDL"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/4hZcUyNkO2mWNA6xFBjo3e"
+      },
+      "followers": {
+        "href": null,
+        "total": 5231
+      },
+      "genres": [],
+      "href": "https://api.spotify.com/v1/artists/4hZcUyNkO2mWNA6xFBjo3e",
+      "id": "4hZcUyNkO2mWNA6xFBjo3e",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5eb2a8252016c2e3c5a18c4c97f",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab676161000051742a8252016c2e3c5a18c4c97f",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f1782a8252016c2e3c5a18c4c97f",
+          "width": 160
+        }
+      ],
+      "name": "Spellspellspell",
+      "popularity": 34,
+      "type": "artist",
+      "uri": "spotify:artist:4hZcUyNkO2mWNA6xFBjo3e"
+    },
+    {
+      "external_urls": {
+        "spotify": "https://open.spotify.com/artist/0Y4inQK6OespitzD6ijMwb"
+      },
+      "followers": {
+        "href": null,
+        "total": 795368
+      },
+      "genres": [
+        "alternative hip hop",
+        "hip hop",
+        "indiana hip hop",
+        "rap",
+        "southern hip hop",
+        "underground hip hop"
+      ],
+      "href": "https://api.spotify.com/v1/artists/0Y4inQK6OespitzD6ijMwb",
+      "id": "0Y4inQK6OespitzD6ijMwb",
+      "images": [
+        {
+          "height": 640,
+          "url": "https://i.scdn.co/image/ab6761610000e5ebf08a8c522777fc9d3c5095c3",
+          "width": 640
+        },
+        {
+          "height": 320,
+          "url": "https://i.scdn.co/image/ab67616100005174f08a8c522777fc9d3c5095c3",
+          "width": 320
+        },
+        {
+          "height": 160,
+          "url": "https://i.scdn.co/image/ab6761610000f178f08a8c522777fc9d3c5095c3",
+          "width": 160
+        }
+      ],
+      "name": "Freddie Gibbs",
+      "popularity": 74,
+      "type": "artist",
+      "uri": "spotify:artist:0Y4inQK6OespitzD6ijMwb"
+    }
+  ],
+  "total": 50,
+  "limit": 20,
+  "offset": 0,
+  "href": "https://api.spotify.com/v1/me/top/artists",
+  "previous": null,
+  "next": "https://api.spotify.com/v1/me/top/artists?limit=20&offset=20"
+}

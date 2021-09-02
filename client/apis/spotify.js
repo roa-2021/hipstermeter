@@ -2,10 +2,12 @@ const clientId = "5fc062d114b34900bbf796580f2f99e5";
 
 function getLoginUrl() {
   var authorizeUrl = "https://accounts.spotify.com/authorize?";
+  const scopes = encodeURIComponent("user-top-read");
   const queries = [
     "client_id=" + clientId,
     "response_type=token",
     "redirect_uri=http://localhost:3000",
+    "scope="+scopes,
   ];
   return authorizeUrl + queries.join("&");
 }
@@ -16,19 +18,19 @@ function getAccessToken() {
   
   //Check token expiry date is in the past
   const tokenExpired = (Date.parse(expiryString) - Date.parse(new Date())) < 0;
-
-  if (!accessToken || tokenExpired) {
+  
+  if (!accessToken || (expiryString && tokenExpired)) {
     //Convert params to object
-    var paramsString = window.location.href;
+    var paramsArray = window.location.href.split("/");
     var queries = {};
-    paramsString
-      .substring(paramsString.indexOf("#") + 1)
-      .split("&")
-      .forEach((query) => {
-        const key = query.split("=")[0];
-        const value = query.split("=")[1];
-        queries[key] = value;
-      });
+
+    paramsArray[paramsArray.length - 1].split("&").forEach((query) => {
+      const key = query.split("=")[0];
+      const value = query.split("=")[1];
+      queries[key] = value;
+    });
+
+    console.log(paramsArray);
 
     //Check if token exists in query
     if (queries.access_token) {

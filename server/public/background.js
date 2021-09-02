@@ -36,8 +36,10 @@ function calcPageFillRadius(x, y) {
 }
 
 function addClickListeners() {
-  document.addEventListener("touchstart", handleEvent);
-  document.addEventListener("mousedown", handleEvent);
+  if (changeOnClick) {
+    document.addEventListener("touchstart", handleEvent);
+    document.addEventListener("mousedown", handleEvent);
+  }
 }
 
 function handleEvent(e) {
@@ -218,3 +220,6 @@ document.addEventListener("mousemove", (e) => {
     pageY = e.pageY;
     pageX = e.pageX;
 });
+
+
+const changeOnClick = false;

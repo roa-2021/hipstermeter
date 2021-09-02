@@ -9,15 +9,23 @@ import spotifyApi from '../apis/spotify';
 
 
 const App = () => {
+
+  spotifyApi.getAccessToken();
+  
   return (
     <>
-      <Route path ='/' component ={Nav}/>
+      <h4>
+        Access Token:
+        <br/>
+        <kbd style={{ userSelect: "all" }}>{spotifyApi.getAccessToken()}</kbd>
+      </h4>
+      <Route path="/" component={Nav} />
       <div class="page">
-        <Route exact path ='/' component ={Home}/>
-        <Route exact path ='/music' component ={Music}/>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/music" component={Music} />
       </div>
     </>
-  )
+  );
 }
 
 export default App

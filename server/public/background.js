@@ -2,14 +2,15 @@ var c = document.getElementById("c");
 var ctx = c.getContext("2d");
 var cH;
 var cW;
-var bgColor = "#FF6138";
+var bgColor = "#2C2C54";
 var animations = [];
 var circles = [];
 var pageY;
 var pageX;
+var changeOnClick = false;
 
 var colorPicker = (function () {
-  var colors = ["#FF6138", "#FFBE53", "#2980B9", "#282741"];
+  var colors = ["#2C2C54", "#FF5964", "#50A2A7", "#3772FF"];
   var index = 0;
   function next() {
     index = index++ < colors.length - 1 ? index : 0;
@@ -221,5 +222,4 @@ document.addEventListener("mousemove", (e) => {
     pageX = e.pageX;
 });
 
-
-const changeOnClick = false;
+window.changeBg = handleEvent;

@@ -4,10 +4,10 @@ const env = process.env.NODE_ENV || 'development'
 const connection = knex(config[env])
 
 
-const getAllFruit = (db = connection) => {
-  return db('fruit')
+const getCreators = (db = connection) => {
+  return db('creators')
 }
 
 module.exports = {
-  getAllFruit
+  getCreators
 }

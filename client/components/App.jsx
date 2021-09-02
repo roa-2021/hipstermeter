@@ -14,11 +14,11 @@ const App = () => {
   
   return (
     <>
-      <h4>
+      <h3>
         Access Token:
         <br/>
         <kbd style={{ userSelect: "all" }}>{spotifyApi.getAccessToken()}</kbd>
-      </h4>
+      </h3>
       <Route path="/" component={Nav} />
       <div class="page">
         <Route exact path="/" component={Home} />

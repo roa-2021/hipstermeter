@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Fruit from './Fruit'
+import spotifyApi from '../apis/spotify';
 
 const App = () => {
   return (

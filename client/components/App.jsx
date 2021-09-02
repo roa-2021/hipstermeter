@@ -6,7 +6,8 @@ import About from "./About";
 import List from "./List";
 import UploadScoreForm from "./UploadScoreForm";
 import Compare from "./Compare";
-
+import Music from "./Music";
+import Meter from "./Meter"
 import { Route, withRouter } from "react-router-dom";
 
 import spotifyApi from "../apis/spotify";

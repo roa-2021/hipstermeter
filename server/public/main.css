@@ -1,5 +1,20 @@
-html, body {
-  background-color: #eeebe4;
-  color: #28282e;
-  font-family: 'Lato', sans-serif;
+html,
+body {
+  /* background-color: #eeebe4; */
+  color: white;
+  font-family: "Lato", sans-serif;
+  user-select: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+canvas {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }

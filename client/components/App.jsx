@@ -3,6 +3,7 @@ import React from "react";
 import Home from "./Home";
 import Nav from "./Nav";
 import Music from "./Music";
+import Meter from "./Meter"
 import { Route, withRouter } from "react-router-dom";
 
 import spotifyApi from "../apis/spotify";

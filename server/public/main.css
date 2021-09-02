@@ -18,3 +18,42 @@ canvas {
   left: 0;
   z-index: -1;
 }
+a:visited {
+  color: inherit;
+}
+
+.spotify-button {
+  color: white;
+  text-decoration: none;
+  background-color: #1db954;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 500px;
+  padding: 18px 48px 16px;
+  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-duration: 0.3s;
+  border-width: 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  white-space: normal;
+  font-weight: 800;
+}
+
+.spotify-button:hover {
+  background-color: #1ed760;
+}
+
+.page {
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  padding: 20px;
+  text-decoration: none;
+  color: white;
+}
+nav > * {
+  display: inline-block;
+  margin-right: 10px;
+}

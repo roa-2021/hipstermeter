@@ -11,11 +11,11 @@ import spotifyApi from '../apis/spotify';
 const App = () => {
   return (
     <>
-      <h1>Music Time</h1>
       <Route path ='/' component ={Nav}/>
-      <Route exact path ='/' component ={Home}/>
-      <Route exact path ='/music' component ={Music}/>
-
+      <div class="page">
+        <Route exact path ='/' component ={Home}/>
+        <Route exact path ='/music' component ={Music}/>
+      </div>
     </>
   )
 }

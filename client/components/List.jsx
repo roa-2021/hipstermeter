@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-function Music () {
+function List () {
   return (
     <div>
       <h2>Music Playlists</h2>
@@ -10,4 +10,4 @@ function Music () {
   )
 }
 
-export default Music
+export default List

@@ -2,12 +2,12 @@ import React from 'react'
 
 
 
-function About () {
+function Form () {
   return (
     <div>
-      <h2>About us</h2>
+      <h2>Form</h2>
     </div>
   )
 }
 
-export default About
+export default Form

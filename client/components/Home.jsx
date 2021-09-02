@@ -1,7 +1,8 @@
 import React from 'react'
 //import { Route } from 'react-router-dom'
+import AuthButton from './AuthButton';
 
-import spotifyApi from '../apis/spotify';
+//import spotifyApi from '../apis/spotify';
 
 function Home () {
 
@@ -9,9 +10,7 @@ function Home () {
   return (
     <div>
       <h2>Home</h2>
-      <a className="spotify-button" href={spotifyApi.getLoginUrl()}>
-        Connect Spotify
-      </a>
+      <AuthButton/>
     </div>
   );
 }

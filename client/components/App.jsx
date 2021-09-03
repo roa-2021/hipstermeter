@@ -15,6 +15,7 @@ const App = ({ history }) => {
 
   // Change background color on route change
   history.listen((location, action) => {
+    console.log(location)
     window.changeBg();
   });
 
@@ -23,11 +24,6 @@ const App = ({ history }) => {
 
   return (
     <>
-      <h3>
-        Access Token:
-        <br />
-        <kbd style={{ userSelect: "all" }}>{spotifyApi.getAccessToken()}</kbd>
-      </h3>
       <Route path="/" component={Nav} />
       <div className="page">
         <Route exact path="/" component={Home} />

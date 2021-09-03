@@ -34,7 +34,8 @@ server.get('/api/users', (req, res) => {
 })
 
 server.post('/api/users', (req, res) => {
-  return db.addCreator(snake(req.body)
+  console.log(req.body);
+  return db.addUser( snake(req.body) )
     .then(idArr => {
       body.id = idArr[0]
       return res.json(camel(body))
@@ -43,7 +44,6 @@ server.post('/api/users', (req, res) => {
       console.log(err.message)
       return res.status(500).send('500 error :(')
     })
-  )
 })
 
 

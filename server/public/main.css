@@ -1,12 +1,31 @@
 html,
 body {
-  /* background-color: #eeebe4; */
   color: white;
-  font-family: "Lato", sans-serif;
-  user-select: none;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizeLegibility;
+  overscroll-behavior-y: none;
+  user-select: none;
+  margin: 0;
+  height: 100%;
+  overflow: hidden;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#app {
+  height: 100%;
+  max-height: 99vh;
+}
+
+h1 {
+  font-family: 'Fredoka One', sans;
+  font-size: 4.5em;
+  margin-bottom: 1.2em;
+}
+
+h2 {
+  font-family: 'Fredoka One', sans;
+  font-size: 1.8em;
 }
 
 canvas {
@@ -17,6 +36,11 @@ canvas {
   top: 0;
   left: 0;
   z-index: -1;
+}
+
+
+a {
+  color: white;
 }
 a:visited {
   color: inherit;
@@ -43,17 +67,49 @@ a:visited {
   background-color: #1ed760;
 }
 
-.page {
-  padding: 20px;
-}
 
 nav {
   display: flex;
   padding: 20px;
   text-decoration: none;
   color: white;
+  font-family: 'Fredoka One', sans;
 }
-nav > * {
+nav > a {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-size: 2em;
+  text-decoration: none;
+  transition: opacity 80ms ease-out;
+}
+
+nav > a:hover {
+  opacity: 0.8;
+}
+
+.page {
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  height: 100%;
+  max-height: 80vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+.column-1, .column-2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  flex: 50%;
+  align-items: start;
+  height: 80%;
+}
+
+.page .about .creator {
+  
+}
+
+p {
 }

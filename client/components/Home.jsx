@@ -8,10 +8,15 @@ function Home () {
 
 
   return (
-    <div>
-      <h2>Home</h2>
-      <AuthButton/>
-    </div>
+    <>
+      <div className="column-1">
+        <h1>Home</h1>
+        <AuthButton/>
+      </div>
+      <div className="column-2">
+
+      </div>
+    </>
   );
 }
 

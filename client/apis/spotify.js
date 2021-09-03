@@ -13,6 +13,7 @@ function getLoginUrl() {
     host += "https://";
     host += window.location.hostname;
   }
+  host += "/#/top-artists";
   const queries = [
     "client_id=" + clientId,
     "response_type=token",
@@ -72,9 +73,17 @@ function getTopArtists() {
   .then(response => response.body)
 }
 
+function getTopTracks() {
+  return request
+    .get("https://api.spotify.com/v1/me/top/tracks")
+    .set("Authorization", "Bearer " + getAccessToken())
+    .then((response) => response.body);
+}
+
 export default {
   getLoginUrl,
   getAccessToken,
   addName,
-  getTopArtists
+  getTopArtists,
+  getTopTracks,
 };

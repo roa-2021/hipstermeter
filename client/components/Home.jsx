@@ -11,10 +11,12 @@ function Home () {
     <>
       <div className="column-1">
         <h1>Hipster Meter</h1>
-        <p>Find out if your music taste is aesthetic</p>
+        <p className="tag-line">Find out if your music taste is aesthetic</p>
         <AuthButton />
       </div>
-      <div className="column-2"></div>
+      <div className="column-2">
+        <img className="greek-hipster" src="/images/greek-hipster.png"></img>
+      </div>
     </>
   );
 }

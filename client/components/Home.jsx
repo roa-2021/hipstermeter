@@ -8,13 +8,14 @@ function Home () {
 
 
   return (
-    <div>
-      <h2>Hipstermeter</h2>
-      <p>Find out if your music taste is cool</p>
-      <div>
-        <AuthButton/>
-        </div>
-    </div>
+    <>
+      <div className="column-1">
+        <h1>Hipster Meter</h1>
+        <p>Find out if your music taste is aesthetic</p>
+        <AuthButton />
+      </div>
+      <div className="column-2"></div>
+    </>
   );
 }
 

@@ -8,6 +8,13 @@ const getCreators = (db = connection) => {
   return db('creators')
 }
 
+const getUsers = (db = connection) => {
+  return db('users')
+}
+
+
+
 module.exports = {
-  getCreators
+  getCreators,
+  getUsers
 }

@@ -6,7 +6,6 @@ import AuthButton from './AuthButton';
 
 function Home () {
 
-
   return (
     <>
       <div className="column-1">

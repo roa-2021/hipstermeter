@@ -17,9 +17,6 @@ const App = ({ history }) => {
     window.changeBg();
   });
 
-  //Get Access token from URL when/if auth returns in params
-  spotifyApi.getAccessToken()
-
   return (
     <>
       <Route path="/" component={Nav} />

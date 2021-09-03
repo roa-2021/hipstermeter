@@ -9,8 +9,11 @@ function Home () {
 
   return (
     <div>
-      <h2>Home</h2>
-      <AuthButton/>
+      <h2>Hipstermeter</h2>
+      <p>Find out if your music taste is cool</p>
+      <div>
+        <AuthButton/>
+        </div>
     </div>
   );
 }

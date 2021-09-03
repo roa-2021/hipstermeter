@@ -1,25 +1,24 @@
-import React from "react";
+import React from "react"
 
-import Home from "./Home";
-import Nav from "./Nav";
-import About from "./About";
-import List from "./List";
-import UploadScoreForm from "./UploadScoreForm";
-import Compare from "./Compare";
+import Home from "./Home"
+import Nav from "./Nav"
+import About from "./About"
+import List from "./List"
+import UploadScoreForm from "./UploadScoreForm"
+import Compare from "./Compare"
 import Meter from "./Meter"
-import { Route, withRouter } from "react-router-dom";
+import { Route, withRouter } from "react-router-dom"
 
-import spotifyApi from "../apis/spotify";
+import spotifyApi from "../apis/spotify"
 
 const App = ({ history }) => {
-
   // Change background color on route change
   history.listen((location, action) => {
-    window.changeBg();
-  });
+    window.changeBg()
+  })
 
   //Get Access token from URL when/if auth returns in params
-  spotifyApi.getAccessToken();
+  spotifyApi.getAccessToken()
 
   return (
     <>
@@ -39,7 +38,7 @@ const App = ({ history }) => {
         <Route exact path ="/meter" component={Meter}/>
       </div>
     </>
-  );
-};
+  )
+}
 
-export default withRouter(App);
+export default withRouter(App)

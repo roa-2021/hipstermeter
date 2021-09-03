@@ -1,4 +1,5 @@
 import React from 'react'
+
 import spotifyApi from '../apis/spotify';
 import { Link } from "react-router-dom";
 
@@ -24,6 +25,7 @@ function AuthButton () {
       </div>
     );
   }
+
 }
 
 export default AuthButton

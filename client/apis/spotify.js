@@ -1,7 +1,7 @@
 const clientId = "5fc062d114b34900bbf796580f2f99e5";
 import request from "superagent"
 
-function getLoginUrl() {
+export function getLoginUrl() {
   var authorizeUrl = "https://accounts.spotify.com/authorize?";
   const scopes = encodeURIComponent("user-top-read");
   var host = "";
@@ -22,7 +22,7 @@ function getLoginUrl() {
   return authorizeUrl + queries.join("&");
 }
 
-function getAccessToken() {
+export function getAccessToken() {
   var accessToken = localStorage.getItem("shopify-access-token");
   const expiryString = localStorage.getItem("shopify-access-token-expires");
   
@@ -58,31 +58,31 @@ function getAccessToken() {
   return accessToken;
 }
 
-function addName(name) {
+export function addName(name) {
   return request
-  .post()
+  .post('/api/users')
   .send(name)
   .then(response => response.body)
 }
 
-function getTopArtists() {
+export function getTopArtists() {
   return request
   .get('https://api.spotify.com/v1/me/top/artists')
   .set('Authorization', 'Bearer ' + getAccessToken())
   .then(response => response.body)
 }
 
-function getTopTracks() {
+export function getTopTracks() {
   return request
     .get("https://api.spotify.com/v1/me/top/tracks")
     .set("Authorization", "Bearer " + getAccessToken())
     .then((response) => response.body);
 }
 
-export default {
-  getLoginUrl,
-  getAccessToken,
-  addName,
-  getTopArtists,
-  getTopTracks,
-};
+// export default {
+//   getLoginUrl,
+//   getAccessToken,
+//   addName,
+//   getTopArtists,
+//   getTopTracks,
+// };

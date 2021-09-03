@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react"
 import ReactSpeedometer from "react-d3-speedometer"
+
 import spotifyApi from "../apis/spotify"
+
 function Meter(props) {
   const [rating, setRating] = useState(0)
   const [topArtist, setTopArtist] = useState("")
@@ -8,7 +10,9 @@ function Meter(props) {
   var count = 0
 
   useEffect(() => {
+
     spotifyApi.getTopArtists().then((topArtists) => {
+
       const tempArr = []
       topArtists.items.forEach((item) => {
         tempArr.push(item.popularity)

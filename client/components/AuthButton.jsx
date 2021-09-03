@@ -1,11 +1,11 @@
 import React from 'react'
-import spotifyApi from '../apis/spotify';
+import {getLoginUrl} from '../apis/spotify';
 
 
 function AuthButton () {
   return (
     <div>
-      <a className="spotify-button" href={spotifyApi.getLoginUrl()}>
+      <a className="spotify-button" href={getLoginUrl()}>
         Connect Spotify
       </a>
     </div>

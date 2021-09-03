@@ -9,7 +9,7 @@ import Compare from "./Compare"
 import Meter from "./Meter"
 import { Route, withRouter } from "react-router-dom"
 
-import spotifyApi from "../apis/spotify"
+import {getAccessToken} from "../apis/spotify"
 
 const App = ({ history }) => {
   // Change background color on route change
@@ -18,7 +18,7 @@ const App = ({ history }) => {
   });
 
   //Get Access token from URL when/if auth returns in params
-  spotifyApi.getAccessToken()
+  getAccessToken()
 
   return (
     <>

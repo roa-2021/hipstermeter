@@ -13,6 +13,9 @@ export const AddForm = () => {
 
     const submitHandler = (e) => {
         e.preventDefault()
+        const newName = {...formData, [e.target.name] : e.target.value}
+        setFormData(newName)
+        
         return addName(formData)
     
     }

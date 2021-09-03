@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import ReactSpeedometer from "react-d3-speedometer"
-import spotifyApi from '../apis/spotify'
+import {getTopArtists} from '../apis/spotify'
 function Meter(props) {
 
   const [rating , setRating] = useState(0)
 
   useEffect(() => {
-    spotifyApi.getTopArtists()
+    getTopArtists()
     .then(topArtists => {
       const tempArr = []
       topArtists.items.forEach(item => {

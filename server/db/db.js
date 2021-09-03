@@ -12,9 +12,17 @@ const getUsers = (db = connection) => {
   return db('users')
 }
 
+const addUser = (db = connection) => {
+  console.log(user)
+  return db('user')
+  
+  
+}
+
 
 
 module.exports = {
   getCreators,
-  getUsers
+  getUsers,
+  addUser
 }

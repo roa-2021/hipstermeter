@@ -22,4 +22,29 @@ server.get('/api/about', (req, res) => {
     })
 })
 
+server.get('/api/users', (req, res) => {
+  return db.getUsers()
+    .then(users => {
+      return res.json(camel(users))
+    })
+    .catch(err => {
+      console.log(err.message)
+      return res.status(500).send('500 error :(')
+    })
+})
+
+server.post('/api/users', (req, res) => {
+  return db.addCreator(snake(req.body)
+    .then(idArr => {
+      body.id = idArr[0]
+      return res.json(camel(body))
+    })
+    .catch(err => {
+      console.log(err.message)
+      return res.status(500).send('500 error :(')
+    })
+  )
+})
+
+
 module.exports = server

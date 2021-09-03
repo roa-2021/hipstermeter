@@ -6,6 +6,10 @@
   "main": "server/index.js",
   "author": "EDA",
   "license": "ISC",
+  "engines": {
+    "node": "14.17.3",
+    "npm": "7.20.6"
+  },
   "scripts": {
     "start": "node server",
     "build": "npm run webpack",
@@ -44,6 +48,7 @@
     "camelcase-keys": "^7.0.0",
     "express": "^4.17.1",
     "knex": "^0.95.4",
+    "pg": "^8.7.1",
     "react-d3-speedometer": "^1.0.1",
     "react-router-dom": "^5.2.1",
     "snakecase-keys": "^4.0.2"

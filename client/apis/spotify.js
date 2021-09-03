@@ -48,7 +48,16 @@ function getAccessToken() {
   return accessToken;
 }
 
+function addName(name) {
+  return request
+  .post()
+  .send(name)
+  .then(response => response.body)
+}
+
+
 export default {
   getLoginUrl,
   getAccessToken,
+  addName
 };

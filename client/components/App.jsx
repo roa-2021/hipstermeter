@@ -36,6 +36,7 @@ const App = ({ history }) => {
         <Route exact path="/top-tracks" component={List} />
         <Route exact path="/uploadScoreForm" component={UploadScoreForm} />
         <Route exact path="/compare" component={Compare} />
+        <Route exact path ="/meter" component={Meter}/>
       </div>
     </>
   );

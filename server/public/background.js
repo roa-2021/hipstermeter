@@ -10,7 +10,7 @@ var pageX;
 var changeOnClick = false;
 
 var colorPicker = (function () {
-  var colors = ["#2C2C54", "#FF5964", "#50A2A7", "#3772FF"];
+  var colors = ["#2C2C54", "#FF5964", "#9629F4", "#3772FF"];
   var index = 0;
   function next() {
     index = index++ < colors.length - 1 ? index : 0;

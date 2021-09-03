@@ -43,9 +43,25 @@
     "camelcase-keys": "^7.0.0",
     "express": "^4.17.1",
     "knex": "^0.95.4",
+<<<<<<< HEAD
     "react-router-dom": "^5.2.1",
     "snakecase-keys": "^4.0.2",
     "react-d3-speedometer": "^1.0.1"
+||||||| merged common ancestors
+<<<<<<<<< Temporary merge branch 1
+    "react-d3-speedometer": "^1.0.1",
+    "react-router-dom": "^5.2.1"
+||||||||| 3a1367b
+    "react-router-dom": "^5.2.1"
+=========
+    "react-router-dom": "^5.2.1",
+    "snakecase-keys": "^4.0.2"
+>>>>>>>>> Temporary merge branch 2
+=======
+    "snakecase-keys": "^4.0.2"
+    "react-d3-speedometer": "^1.0.1",
+    "react-router-dom": "^5.2.1"
+>>>>>>> b1c84b8219053447b382493c9451077a6b7a586b
   },
   "devDependencies": {
     "@babel/core": "7.13.1",

@@ -3,11 +3,20 @@ const clientId = "5fc062d114b34900bbf796580f2f99e5";
 function getLoginUrl() {
   var authorizeUrl = "https://accounts.spotify.com/authorize?";
   const scopes = encodeURIComponent("user-top-read");
+  var host = "";
+  if (window.location.hostname.indexOf("localhost") > -1) {
+    host += "http://";
+    host += window.location.hostname;
+    host += ":3000";
+  } else {
+    host += "https://";
+    host += window.location.hostname;
+  }
   const queries = [
     "client_id=" + clientId,
     "response_type=token",
-    "redirect_uri=http://localhost:3000",
-    "scope="+scopes,
+    "redirect_uri="+host,
+    "scope=" + scopes,
   ];
   return authorizeUrl + queries.join("&");
 }

@@ -1,4 +1,5 @@
 const clientId = "5fc062d114b34900bbf796580f2f99e5";
+import request from "superagent"
 
 function getLoginUrl() {
   var authorizeUrl = "https://accounts.spotify.com/authorize?";
@@ -48,7 +49,15 @@ function getAccessToken() {
   return accessToken;
 }
 
+function getTopArtists() {
+  return request
+  .get('https://api.spotify.com/v1/me/top/artists')
+  .set('Authorization', 'Bearer ' + getAccessToken())
+  .then(response => response.body)
+}
+
 export default {
   getLoginUrl,
   getAccessToken,
+  getTopArtists
 };

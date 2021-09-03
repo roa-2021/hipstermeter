@@ -56,7 +56,7 @@ a:visited {
   line-height: 1;
   border-radius: 500px;
   padding: 18px 48px 16px;
-  transition-property: background-color, border-color, color, box-shadow, filter;
+  transition-property: opacity;
   transition-duration: 0.3s;
   border-width: 0;
   letter-spacing: 2px;
@@ -67,8 +67,13 @@ a:visited {
   display: inline-block;
 }
 
+.authed {
+  background-color: white;
+  color: black !important;
+}
+
 .spotify-button:hover {
-  background-color: #1ed760;
+  opacity: 0.8;
 }
 
 
@@ -111,10 +116,6 @@ nav > a:hover {
   height: 80%;
 }
 
-.page .about .creator {
-  
-}
-
 .tag-line {
   font-size: 1.8em;
   margin-bottom: 1em;
@@ -126,4 +127,36 @@ nav > a:hover {
   left: auto;
   bottom: -100px;
   height: 90%;
+}
+
+.loading {
+  margin-top: 80px;
+  text-align: center;
+  transform-origin: 0% 50%;
+  transform: scale(2);
+}
+
+.top-five {
+  font-weoght: 600;
+  font-size: 1.2em;
+}
+
+.list-next {
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 500px;
+  background: white;
+  color: black !important;
+  padding: 15px 35px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 100ms ease-out;
+}
+
+.list-next:hover {
+  opacity: 0.8;
+}
+
+.current-value {
+  display: none;
 }

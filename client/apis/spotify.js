@@ -13,7 +13,6 @@ export function getLoginUrl() {
     host += "https://";
     host += window.location.hostname;
   }
-  host += "/#/top-artists";
   const queries = [
     "client_id=" + clientId,
     "response_type=token",
